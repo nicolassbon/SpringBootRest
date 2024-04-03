@@ -1,0 +1,21 @@
+insert into fabricantes(id, nombre) values(1,'Asus');
+insert into fabricantes(id, nombre) values(2,'Lenovo');
+insert into fabricantes(id, nombre) values(3,'Hewlett-Packard');
+insert into fabricantes(id, nombre) values(4,'Samsung');
+insert into fabricantes(id, nombre) values(5,'Seagate');
+insert into fabricantes(id, nombre) values(6,'Crucial');
+insert into fabricantes(id, nombre) values(7,'Gigabyte');
+insert into fabricantes(id, nombre) values(8,'Huawei');
+insert into fabricantes(id, nombre) values(9,'Xiamoi');
+
+insert into productos(id, nombre,precio,id_fabricante) values(1,'Disco duro SATA3 1TB',86.99,5);
+insert into productos(id, nombre,precio,id_fabricante) values(2,'Memoria RAM DDR4 8GB',120,6);
+insert into productos(id, nombre,precio,id_fabricante) values(3,'Disco SSD 1TB',150.99,4);
+insert into productos(id, nombre,precio,id_fabricante) values(4,'GeForce GTX 1050Ti',185,7);
+insert into productos(id, nombre,precio,id_fabricante) values(5,'GeForce GTX 1080 Xtreme',755,6);
+insert into productos(id, nombre,precio,id_fabricante) values(6,'Monitor 24 LED Full HD',202,1);
+insert into productos(id, nombre,precio,id_fabricante) values(7,'Monitor 27 LED Full HD',245.99,1);
+insert into productos(id, nombre,precio,id_fabricante) values(8,'Portatil Yoga 520',559,2);
+insert into productos(id, nombre,precio,id_fabricante) values(9,'Portatil Idepad 320',444,2);
+insert into productos(id, nombre,precio,id_fabricante) values(10,'Impresora HP Deskjet 3720',59.99,3);
+insert into productos(id, nombre,precio,id_fabricante) values(11,'Impresora HP Laserjet Pro',180,3);
